@@ -1,4 +1,4 @@
-let dayNumber = Math.floor(Math.random()*7) //random day from 0-6(quantity of 7)
+let dayNumber = Math.floor(Math.random()*9) //random day from 0-6(quantity of 7)
 console.log(dayNumber); //should be number
 if (dayNumber === 6) {
     console.log('Saturday');
@@ -14,4 +14,6 @@ if (dayNumber === 6) {
     console.log('Monday');
 }   else if (dayNumber === 0) {
     console.log('Sunday');
+}   else {
+    console.log('Invalid day number');
 }
